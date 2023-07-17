@@ -7,6 +7,7 @@
     <link href="imagess/icon.png" rel="icon">
 
     <link rel="stylesheet" href="">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="csss/plugins.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
   
@@ -27,6 +28,26 @@ body {
     font-weight: 300;
     line-height: 2.2;
     overflow-x: hidden;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    background-color: #25d366;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
 }
 section
 {
@@ -796,11 +817,11 @@ h2.contact.menu-item:before {
             <div class="name-block-container">
                 <h1 style="font-size: 49px;" data-aos="zoom-in" data-aos-delay="500">Ahsan Khokhar</h1>
                 <h2 data-aos="zoom-in" data-aos-delay="500">I'm <span class="typed" data-typed-items="Graphic Designer, UI/UX Designer, Web Designer, App Designer, Freelancer"></span></h2>
-                <a data-aos="zoom-in" data-aos-delay="500" href="#" class="btn btn-transparent">Download Resume</a>
+                <a data-aos="zoom-in" data-aos-delay="500" href="img/Ahsan-CV.pdf" class="btn btn-primary" download>Download Resume</a>
                 <ul class="social"  data-aos="zoom-in" data-aos-delay="500">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="https://www.facebook.com/malik.ahsankhokhar.54"><i class="fa fa-facebook"></i></a></li> 
+                    <li><a href="https://www.linkedin.com/in/ahsan-khokhar-705243262/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.behance.net/ahsansaleem11"><i class="fa fa-behance"></i></a></li>
                 </ul>
             </div>
     </div>  
@@ -836,6 +857,10 @@ h2.contact.menu-item:before {
     </div>
 </div>
 </section>
+
+<a href="https://wa.me/923254245818" class="whatsapp-icon" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+</a>
 
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
